@@ -92,7 +92,7 @@ export class FetchClient {
 
 	public post<T>(
 		endpoint: string,
-		body?: Record<string, any>,
+		body?: Record<string, unknown>,
 		options: RequestOptions = {}
 	) {
 		return this.request<T>(endpoint, 'POST', {
