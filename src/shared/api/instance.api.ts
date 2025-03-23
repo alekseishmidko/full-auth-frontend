@@ -1,8 +1,8 @@
-import { FetchClient } from '../utils'
+import { FetchClient } from "../utils";
 
 export const api = new FetchClient({
-	baseUrl: process.env.SERVER_URL as string,
-	options: {
-		credentials: 'include'
-	}
-})
+  baseUrl: process.env.NEXT_PUBLIC_SERVER_URL ?? "",
+  options: {
+    credentials: "include",
+  },
+});
