@@ -12,7 +12,7 @@ import {
 	useFormContext
 } from 'react-hook-form'
 
-import { cn } from '@/shared/utils/clsx'
+import { cn } from '@/shared/utils'
 
 import { Label } from './Label'
 
